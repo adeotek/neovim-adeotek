@@ -3,6 +3,7 @@
 ## Plugins
 
 * Catppuccin (color scheme)
+* Commant.nvim
 * Lualine
 * Neotree
 * Telescope
