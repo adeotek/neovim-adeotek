@@ -15,9 +15,10 @@
 
 ## File Management
 
-* `:e` filename - Open file for editing
+* `:e filename` - Open file for editing
+* `:e %:h/filename` - Open for edit a file located in the same path as the current file
 * `:w` - Save current buffer to disk
-* `:w` filename - Save current buffer to filename
+* `:w filename` - Save current buffer to filename
 * `:q` - Close the current window
 * `:wq` - Save and close the current window
 * `:q!` - Close the current window without saving
