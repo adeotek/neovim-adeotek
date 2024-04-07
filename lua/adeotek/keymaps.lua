@@ -1,3 +1,9 @@
+-- Navigation
+vim.keymap.set('n', '<C-A-left>', [[<cmd>bprevious<CR>]], {noremap = true})
+vim.keymap.set('n', '<C-A-right>', [[<cmd>bnext<CR>]], {noremap = true})
+--vim.keymap.set('i', '<C-S-up>', '<C-o><C-v>k', {})
+--vim.keymap.set('i', '<C-S-down>', '<C-o><C-v>j', {})
+
 -- Clipboard
 vim.keymap.set({ "n", "x" }, "<leader>y", [["+y]]) -- copy to system clipboard
 vim.keymap.set({ "n", "x" }, "<leader>p", [["+p]]) -- paste from system clipboard
