@@ -9,3 +9,13 @@ vim.cmd("set autoindent")
 vim.cmd("set smarttab")
 vim.g.mapleader = " "
 vim.g.editorconfig = false
+
+-- Set PowerShell as the default shell in Windows
+if vim.fn.has("win32") == 1 then
+  -- vim.loop.os_uname().sysname
+  vim.o.shell = "pwsh"
+  -- -NoProfile
+  vim.o.shellcmdflag = "-NoLogo -Command"
+  vim.o.shellquote = '"'
+  vim.o.shellxquote = ""
+end
